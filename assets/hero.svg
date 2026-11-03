@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Subhojit Haldar (sourceium) - AI tools and free source code">
+  <title>Subhojit Haldar (sourceium) - AI tools and free source code</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .name { font-size: 64px; font-weight: 700; fill: #f0f6fc; }
+      .handle { font-size: 26px; fill: url(#accent); font-weight: 600; letter-spacing: 1px; }
+      .role { font-size: 30px; fill: #c9d1d9; opacity: 0; }
+      .meta { font-size: 18px; fill: #8b949e; }
+      .r1 { animation: show 9s infinite; }
+      .r2 { animation: show 9s infinite 3s; }
+      .r3 { animation: show 9s infinite 6s; }
+      @keyframes show {
+        0%   { opacity: 0; transform: translateY(8px); }
+        6%   { opacity: 1; transform: translateY(0); }
+        30%  { opacity: 1; transform: translateY(0); }
+        36%  { opacity: 0; transform: translateY(-8px); }
+        100% { opacity: 0; }
+      }
+      .glow { animation: pulse 4s ease-in-out infinite; transform-origin: center; }
+      @keyframes pulse { 0%,100% { opacity: .06; } 50% { opacity: .14; } }
+      .cursor { animation: blink 1s steps(2) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <circle class="glow" cx="1020" cy="70" r="150" fill="#58a6ff" opacity=".12"/>
+  <circle class="glow" cx="1100" cy="300" r="120" fill="#3fb950" opacity=".12"/>
+
+  <!-- code-bracket motif -->
+  <text x="800" y="250" font-size="170" fill="#58a6ff" opacity=".18" font-weight="700">&lt;/&gt;</text>
+
+  <text class="handle" x="70" y="95">@sourceium</text>
+  <text class="name" x="70" y="170">Subhojit Haldar</text>
+  <rect x="70" y="188" width="140" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <g>
+    <text class="role r1" x="70" y="250">AI tools, built for everyone</text>
+    <text class="role r2" x="70" y="250">Free &amp; open-source Android apps</text>
+    <text class="role r3" x="70" y="250">Fast, privacy-first web utilities</text>
+  </g>
+
+  <text class="meta" x="70" y="315">West Bengal, India   |   Free source code   |   #sourceium</text>
+</svg>
